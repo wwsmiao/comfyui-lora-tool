@@ -1,0 +1,1019 @@
+{
+  "id": "7a28734b-86e6-495e-9a70-5fad21d093c3",
+  "revision": 0,
+  "last_node_id": 65,
+  "last_link_id": 62,
+  "nodes": [
+    {
+      "id": 33,
+      "type": "ShowText|pysssss",
+      "pos": [
+        216.02341427319723,
+        1426.4049252516095
+      ],
+      "size": [
+        140,
+        76.00000000000011
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "字符串",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "翻译完成，共处理 1 个 txt 文件"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "CR Prompt Text",
+      "pos": [
+        -169.88836937275394,
+        1828.666074363089
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "提示词",
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "提示词文本",
+          "type": "STRING",
+          "links": [
+            37
+          ]
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI_Comfyroll_CustomNodes",
+        "ver": "d78b780ae43fcf8c6b7c6505e6ffb4584281ceca",
+        "Node name for S&R": "CR Prompt Text",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "请仔细观察这张图片，并用详细的中文自然语言来描述它。词语应包含图片的核心元素、人物/物体、场景、动作、风格、色彩、构图、光影效果等细节。其中人物用\"小妖\"代替。形成一个流畅、准确、信息丰富的描述。仅输出这个描述句子，不要有其他文字。"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "ShowText|pysssss",
+      "pos": [
+        217.24439902797906,
+        989.4017779831225
+      ],
+      "size": [
+        150.1253793183513,
+        216.8244563843134
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 30
+        }
+      ],
+      "outputs": [
+        {
+          "name": "字符串",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "完成，共处理 16 张图片"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "ShowText|pysssss",
+      "pos": [
+        643.9078383264477,
+        1823.4826590274251
+      ],
+      "size": [
+        252.9984543174685,
+        185.64919233844194
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 38
+        }
+      ],
+      "outputs": [
+        {
+          "name": "字符串",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "Qwen-VL 打标完成：16/16"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "ShowText|pysssss",
+      "pos": [
+        232.93578763028108,
+        2585.907343654965
+      ],
+      "size": [
+        140,
+        76
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 43
+        }
+      ],
+      "outputs": [
+        {
+          "name": "字符串",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "人脸裁剪完成：18/31"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        -531.9393280858086,
+        959.6859054786459
+      ],
+      "size": [
+        311.7834284093963,
+        226
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "可选连接",
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "showAllGraphs": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      }
+    },
+    {
+      "id": 53,
+      "type": "CR Prompt Text",
+      "pos": [
+        -170.31108932619173,
+        2200.1007761278593
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "提示词",
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "提示词文本",
+          "type": "STRING",
+          "links": [
+            57
+          ]
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI_Comfyroll_CustomNodes",
+        "ver": "d78b780ae43fcf8c6b7c6505e6ffb4584281ceca",
+        "Node name for S&R": "CR Prompt Text",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "请仔细观察这张图片，并用详细的英文自然语言来描述它。词语应包含图片的核心元素、人物/物体、场景、动作、风格、色彩、构图、光影效果等细节。其中人物用\"maruemon\"代替。形成一个流畅、准确、信息丰富的描述。仅输出这个描述句子，不要有其他文字。"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "ShowText|pysssss",
+      "pos": [
+        643.485118373009,
+        2194.917360792196
+      ],
+      "size": [
+        252.9984543174685,
+        185.64919233844194
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 58
+        }
+      ],
+      "outputs": [
+        {
+          "name": "字符串",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "Qwen-VL 打标完成：10/10"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        -582.5937855279666,
+        1785.7775578092885
+      ],
+      "size": [
+        311.7834284093963,
+        226
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "可选连接",
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "showAllGraphs": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      }
+    },
+    {
+      "id": 60,
+      "type": "ShowText|pysssss",
+      "pos": [
+        240.90771466402933,
+        2938.176635690907
+      ],
+      "size": [
+        140,
+        76
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 60
+        }
+      ],
+      "outputs": [
+        {
+          "name": "字符串",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "尺寸重设完成：成功 5 张，跳过 0 张，失败 0 张"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "ShowText|pysssss",
+      "pos": [
+        274.8942978806323,
+        3246.526280025957
+      ],
+      "size": [
+        140,
+        76
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 62
+        }
+      ],
+      "outputs": [
+        {
+          "name": "字符串",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        },
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "[ImageSizeClassifier] 分类完成\n总处理: 55\nwh(宽>高): 6\nhw(高>宽): 49\nee(等宽高): 0\n跳过: 0"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "LoraToolImageSizeClassifier",
+      "pos": [
+        -153.69538443772697,
+        3249.3727724655896
+      ],
+      "size": [
+        321.7671875,
+        58
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "result",
+          "type": "STRING",
+          "links": [
+            62
+          ]
+        }
+      ],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        },
+        "Node name for S&R": "LoraToolImageSizeClassifier"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 59,
+      "type": "LoraToolResizeImages",
+      "pos": [
+        -152.3464405540929,
+        2932.1792956331137
+      ],
+      "size": [
+        349.7671875,
+        178
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "result",
+          "type": "STRING",
+          "links": [
+            60
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraToolResizeImages",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "",
+        "",
+        768,
+        "width",
+        "number_sequence",
+        "png"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "LoraToolFaceCrop",
+      "pos": [
+        -162.68931402104613,
+        2568.9208327162596
+      ],
+      "size": [
+        323.0545847432742,
+        174
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "result",
+          "type": "STRING",
+          "links": [
+            43
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraToolFaceCrop",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "",
+        "",
+        512,
+        512,
+        ".jpg,.png,.jpeg,.webp"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "LoraToolQwenVLTagger",
+      "pos": [
+        254.22040840343897,
+        2207.6956540210554
+      ],
+      "size": [
+        359.351171875,
+        130
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          },
+          "link": 57
+        }
+      ],
+      "outputs": [
+        {
+          "name": "result",
+          "type": "STRING",
+          "links": [
+            58
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraToolQwenVLTagger",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "",
+        "",
+        "请为这张图片生成适合 Stable Diffusion / LoRA 训练的英文标签，用逗号分隔",
+        ".png,.jpg,.jpeg,.webp"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "LoraToolQwenVLTagger",
+      "pos": [
+        254.64312835687736,
+        1836.2609522562846
+      ],
+      "size": [
+        359.351171875,
+        130
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          },
+          "link": 37
+        }
+      ],
+      "outputs": [
+        {
+          "name": "result",
+          "type": "STRING",
+          "links": [
+            38
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraToolQwenVLTagger",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "",
+        "",
+        "请为这张图片生成适合 Stable Diffusion / LoRA 训练的英文标签，用逗号分隔",
+        ".png,.jpg,.jpeg,.webp"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "LoraToolBaiduTranslateTxt",
+      "pos": [
+        -166.60688141397785,
+        1410.383459668649
+      ],
+      "size": [
+        324.775,
+        130
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            32
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraToolBaiduTranslateTxt",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "",
+        "",
+        "中文 → 英文",
+        "保存到指定路径"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "LoraToolRenameImages",
+      "pos": [
+        -159.5214735417752,
+        983.5459912761033
+      ],
+      "size": [
+        335.7671875,
+        202
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            30
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraToolRenameImages",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "",
+        "",
+        "前缀_数字序列",
+        1,
+        "test",
+        "",
+        "覆盖原图"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        -559.71080837233,
+        2880.7547114665317
+      ],
+      "size": [
+        311.7834284093963,
+        226
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "可选连接",
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "showAllGraphs": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      }
+    }
+  ],
+  "links": [
+    [
+      30,
+      29,
+      0,
+      27,
+      0,
+      "STRING"
+    ],
+    [
+      32,
+      32,
+      0,
+      33,
+      0,
+      "STRING"
+    ],
+    [
+      37,
+      38,
+      0,
+      39,
+      0,
+      "STRING"
+    ],
+    [
+      38,
+      39,
+      0,
+      37,
+      0,
+      "STRING"
+    ],
+    [
+      43,
+      40,
+      1,
+      41,
+      0,
+      "STRING"
+    ],
+    [
+      57,
+      53,
+      0,
+      54,
+      0,
+      "STRING"
+    ],
+    [
+      58,
+      54,
+      0,
+      55,
+      0,
+      "STRING"
+    ],
+    [
+      60,
+      59,
+      0,
+      60,
+      0,
+      "STRING"
+    ],
+    [
+      62,
+      64,
+      0,
+      65,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 2,
+      "title": "图片重命名",
+      "bounding": [
+        -186.99668018007128,
+        914.8081977319155,
+        592.8997542851483,
+        340.85107943891444
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "百度翻译txt文本",
+      "bounding": [
+        -180.31533057569257,
+        1321.2860989530848,
+        563.7699769517421,
+        347.4531358714744
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "vl打标-zimage-中文-人像",
+      "bounding": [
+        -179.88836937275417,
+        1746.117046231156,
+        1086.794662016669,
+        292.54902813193314
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "裁剪人脸",
+      "bounding": [
+        -175.90780712923151,
+        2496.6082299595337,
+        558.1998961378755,
+        258.19835589238664
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 7,
+      "title": "vl打标-flux-英文-人像",
+      "bounding": [
+        -180.311089326192,
+        2117.5517479959267,
+        1086.794662016669,
+        292.54902813193314
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 8,
+      "title": "重设图片尺寸",
+      "bounding": [
+        -167.49177354623316,
+        2828.40401896678,
+        572.317046100913,
+        305.6
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 9,
+      "title": "图片尺寸分类",
+      "bounding": [
+        -163.69538443772697,
+        3172.926280025957,
+        588.5896823183592,
+        144.44649243963258
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "workflowRendererVersion": "LG",
+    "ue_links": [],
+    "links_added_by_ue": [],
+    "ds": {
+      "scale": 0.4500000000000007,
+      "offset": [
+        1716.0337281857753,
+        -252.49324080488975
+      ]
+    },
+    "frontendVersion": "1.37.11",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}

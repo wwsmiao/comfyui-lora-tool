@@ -5,11 +5,15 @@ from .nodes.face_crop import LoraToolFaceCrop
 from .nodes.resize_images import LoraToolResizeImages
 from .nodes.image_size_classifier import LoraToolImageSizeClassifier
 
+# 在文件顶部的导入部分添加
+from .nodes.qwen2_vl_tagging import LoraToolQwen2VLTagger
 
 NODE_CLASS_MAPPINGS = {
     "LoraToolRenameImages": LoraToolRenameImages,
     "LoraToolBaiduTranslateTxt": LoraToolBaiduTranslateTxt,
-    "LoraToolQwenVLTagger": LoraToolQwenVLTagger
+    "LoraToolQwenVLTagger": LoraToolQwenVLTagger,
+
+
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -40,4 +44,14 @@ NODE_CLASS_MAPPINGS.update({
 
 NODE_DISPLAY_NAME_MAPPINGS.update({
     "LoraToolImageSizeClassifier": "ComfyUI Lora Tool - 图片尺寸分类"
+})
+
+
+# 在已有的 NODE_CLASS_MAPPINGS 和 NODE_DISPLAY_NAME_MAPPINGS 更新之后追加
+NODE_CLASS_MAPPINGS.update({
+    "LoraToolQwen2VLTagger": LoraToolQwen2VLTagger
+})
+
+NODE_DISPLAY_NAME_MAPPINGS.update({
+    "LoraToolQwen2VLTagger": "ComfyUI Lora Tool - Qwen2-VL 图片打标"
 })
